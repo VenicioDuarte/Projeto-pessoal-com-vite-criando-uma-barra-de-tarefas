@@ -4,7 +4,7 @@ function TodoList({ tasks, onDeleteTask }) {
     }
   
     return (
-      <ul className="task-list">
+      <ul className='task-list'>
         {tasks.map((task, index) => (
           <li key={index} className={`task ${task.priority.toLowerCase()}`}>
             <span>{task.task}</span>
